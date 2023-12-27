@@ -12,5 +12,5 @@ export class AppRoutes {
         router.use('/api/todos', TodoRoutes.routes);
 
         return router;
-    }
-}
+    };
+};
